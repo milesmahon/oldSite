@@ -1,0 +1,24 @@
+{%extends "base.html" %}
+
+
+{% block content %}
+
+<h1>
+home
+</h1>
+
+<p>Hey, homie.</p>
+<p>Four score and seven centuries before our forefathers wrought forth a new era</p>
+
+
+<!-- example user input, should use javascript probably, for validation and stuff -->
+
+<form> <!-- had "action="demo_form.asp"" before, to send to demo_form.asp -->
+  User to search: <input type="text" name="userSubmitSN"><br>
+  <input type="submit" value="Graph">
+</form>
+
+
+
+{% endblock %}  <!-- This block business takes DOCTYPE HTML <html> </html> etc from base.html
+useful for keeping site consistent -->
