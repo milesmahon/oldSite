@@ -1,0 +1,41 @@
+body{
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+.navbar {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navbar li{
+    float:left;
+}
+
+.navbar a{
+    display: block;
+    padding: 16px;
+    margin: 0px;
+    text-decoration: none;
+    color: lightgrey;
+}
+
+
+.navbar a:hover {
+    background-color: lightslategrey;
+}
+
+.navbar a.active {
+    background-color: cornflowerblue;
+}
+
+a:visited{
+    font-style: normal;
+}
