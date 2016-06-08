@@ -12,8 +12,6 @@ but then menubar covers content of page...
 
 */
 
-
-
 body{
     font-family: Helvetica;
 /*    box-sizing: border-box;*/
@@ -42,8 +40,15 @@ h1 {
 
 .content{
     /* so navbar doesn't cover content*/ 
-    padding-top: 35px;
-    
+/*    padding-top: 35px;*/
+/*    text-align: center;*/
+    background-color: lightgrey;
+/*    width: 100%;*/
+    margin-top: 60px;
+    padding: 16px;
+    padding-top: 5px;
+    border: 1px;
+    border-radius: 5px;
     
 }
 
