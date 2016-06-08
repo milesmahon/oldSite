@@ -1,0 +1,87 @@
+
+/*
+TODO:
+
+Start adding projects with images and descriptions, links. Make it not look terrible (use borders)
+
+Make work on mobile
+
+*SOLVED* make menu bar flush w sides/top
+uncomment "position: fixed" in .menu fixes this,
+but then menubar covers content of page...
+
+*/
+
+body{
+    font-family: Helvetica;
+/*    box-sizing: border-box;*/
+
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+.menu{
+    /* position:fixed would make this stick to top of window when you scroll*/
+    position: absolute;
+    width:100%;
+    background-color: black;
+    top:0;
+    left:0;
+/*    border-top:none;*/
+/*    border-left:none;*/
+/*    border-right:none;*/
+    
+    margin:0px;
+    padding:0px;
+    
+}
+
+.content{
+    /* so navbar doesn't cover content*/ 
+/*    padding-top: 35px;*/
+/*    text-align: center;*/
+    background-color: lightgrey;
+/*    width: 100%;*/
+    margin-top: 60px;
+    padding: 16px;
+    padding-top: 5px;
+    border: 1px;
+    border-radius: 5px;
+    
+}
+
+.navbar {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navbar li{
+    float:left;
+}
+
+.navbar a{
+    display: block;
+    padding: 16px;
+    margin: 0px;
+    text-decoration: none;
+    color: lightgrey;
+}
+
+
+.navbar a:hover {
+    background-color: lightslategrey;
+}
+
+.navbar a.active {
+    background-color: cornflowerblue;
+}
+
+a:visited{
+    font-style: normal;
+}
